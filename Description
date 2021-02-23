@@ -1,0 +1,11 @@
+Aim- To predict the number of upvotes for particular reddit comment
+
+DataSet - 200000 comments with its time of upload, details of the author, flairs
+
+Methods, Functions and Topics used - pandas , natural language processing , regex, matplotlib,afinn, label encoding
+
+Algorithm
+- Perform Label Encoding on non-numeric columns
+- clean the text columns,i.e. remove stop words and punctuation marks
+- remove unwanted columns
+-train the model
